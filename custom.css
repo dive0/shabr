@@ -1,0 +1,269 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#landing {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.3)),
+    url(img/balloon-3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.text-centering {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    color: #FF0000;
+}
+
+h3,
+h4 {
+    font-family: 'Merriweather', serif;
+}
+
+#info h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#home img {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+#testimonials h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: IBM Plex Serif, serif;
+}
+
+.contact p {
+    font-size: 20px;
+    text-align: center;
+    font-family: PT Sans Narrow, serif;
+}
+
+@media(min-width:768px) {
+    #home img {
+        width: 100%;
+        height: 100%;
+        margin-top: 80px;
+    }
+    #info h1 {
+        font-size: 50px;
+    }
+    #info h3 {
+        font-size: 30px;
+    }
+    #info p {
+        font-size: 20px;
+    }
+    .in1 {
+        width: 550px;
+    }
+    #testimonials h1 {
+        font-size: 50px;
+    }
+    #testimonials h4 {
+        font-size: 20px;
+    }
+    .contact h1 {
+        font-size: 50px;
+    }
+    .contact p {
+        font-size: 30px;
+    }
+    h6 {
+        font-size: 20px;
+    }
+}
+
+@media(min-width:992px) {
+    #home img {
+        width: 80%;
+        height: 80%;
+        margin-top: 0px;
+    }
+    #info h1 {
+        font-size: 55px;
+    }
+    #info h3 {
+        font-size: 35px;
+    }
+    #info p {
+        font-size: 20px;
+    }
+    .in1 {
+        width: 590px;
+    }
+    #testimonials h1 {
+        font-size: 55px;
+    }
+    #testimonials h4 {
+        font-size: 23px;
+    }
+    #test1 {
+        height: 190px;
+        padding-top: 9px;
+        margin-bottom: 30px;
+    }
+    #test2 {
+        height: 190px;
+        padding-top: 20px;
+    }
+    #test3 {
+        height: 190px;
+        padding-top: 22px;
+        margin-bottom: 30px;
+    }
+    #test4 {
+        height: 190px;
+    }
+    #test5 {
+        height: 190px;
+        margin-bottom: 30px;
+    }
+    #test6 {
+        height: 190px;
+        padding-top: 10px;
+    }
+    .contact h1 {
+        font-size: 55px;
+    }
+    .contact p {
+        font-size: 35px;
+    }
+    h6 {
+        font-size: 25px;
+    }
+}
+
+@media(min-width:1200px) {
+    #testimonials h4 {
+        font-size:25px;
+    }
+    .in1 {
+        width: 700px;
+    }
+    #test1 {
+        padding: 18px;
+    }
+    #test3 {
+        padding-top: 19px;
+    }
+    #test4 {
+        padding-top: 17px;
+    }
+    #test5 {
+        padding-top: 6px;
+    }
+    #test6 {
+        padding-top: 4px;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#home {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+h3 {
+    color: black;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+#info {
+    width: 90%;
+    margin: auto;
+    background-color: #ebdd83;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+.gall {
+    text-align: center;
+}
+
+#gallery {
+    margin: auto;
+}
+
+.c-wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 100%;
+    margin: auto;
+}
+
+.a {
+    background-color: #FFE6D0;
+}
+
+.b {
+    background-color: #FFF9CE;
+}
+
+.c {
+    background-color: #f0fff0;
+}
+
+.d {
+    background-color: #f0f8ff;
+}
+
+.e {
+    background-color: #FFDFEF;
+}
+
+.f {
+    background-color: #e6e6fa;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 100%;
+    /* use this, or not */
+    margin: auto;
+}
+
+#copyright {
+    text-align: center;
+}
